@@ -1,0 +1,228 @@
+<div class="page-content shadow p-3 position-relative">
+    <mat-toolbar>
+        <mat-toolbar-row class="justify-content-between">
+            <button mat-icon-button (click)="toggleSidebar()"> <mat-icon>menu</mat-icon>
+                <span class="assigments">Assessment</span>
+                <span class="next">My-Assessment</span>
+            </button>
+        </mat-toolbar-row>
+    </mat-toolbar>
+    <mat-divider></mat-divider>
+
+    <div class="container-fluid section">
+        <div class="page p-3 mt-3">Assessment Overview
+
+        </div>
+        <!-- <div class="page-content shadow p-3 position-relative"></div> -->
+        <div class="border-line container">
+            <div class="new row">
+                <div class="first-card col-3" style="margin-top:0%;">
+                    <div class="vertical">
+                        <p class="subheading" style="  margin-left:0px">
+                            Total Assessment</p>
+
+
+                        <div class="totals-assignment">
+                            <img src="../../assets/Frame 1000009100.jpg">
+                            <span class="number">34</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="news col-3" style="margin-left: -9%;">
+                    <p class="subheading" style="margin-left: 6%;
+                    margin-top: 9%;">Candidates</p>
+                    <div class="total-assignment">
+                        <div class="new-div" style="margin-left: 9%;">
+                            <img src="../../assets/Frame 1000009353.jpg">
+                        </div>
+                        <div style="margin-top: -21%;
+                        margin-left: 28%;">
+                            <span class="number">11,415</span>
+                            <span class="plus">+89</span>
+                            <span style="margin-left: 31%;" class="number">1,14</span>
+                            <span class="plus">+89</span>
+
+
+                        </div>
+
+
+                        <!-- </div> -->
+
+
+                        <p class="total">Total Candidate</p>
+                        <p class="totals">Who Attempt</p>
+
+
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="second-gap col-3" style="margin-left: 6%;  border-left: 1px solid #DADCE0;
+                ">
+                    <p class="subheading">Candidate Source</p>
+                    <div class="total-assignment">
+                        <div class="new-div" style="margin-left: 5%;">
+                            <img src="../../assets/Frame 1000005832.jpg">
+                        </div>
+                        <div style="margin-top: -21%;
+                            margin-left: 22%;">
+                            <span class="number">11,000</span>
+                            <span class="plus">+89</span>
+                            <span style="margin-left: 31%;" class="number">145</span>
+                            <span class="plus">+89</span>
+
+
+                        </div>
+
+
+
+
+                        <p class="total">Email</p>
+                        <p class="totals">Social Share</p>
+
+
+
+
+                    </div>
+
+
+                </div>
+                <div class="col-3" style="margin-left:3%;  border-left: 1px solid #DADCE0; 
+                ">
+                    <p class="subheading">Total Purpose</p>
+                    <div class="total-purpose">
+                        <div class="new-div" style="margin-left: 5%;">
+                            <img src="../../assets/Frame 1000009100 (1).jpg">
+                        </div>
+                        <div style="margin-top: -21%;
+                            margin-left: 22%;">
+                            <span class="number">11</span>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="my-assignment p-3 mt-3">My Assessment</div>
+
+                <div class="new-card" style="width: 24rem;
+                padding-bottom: 10%;
+                border-radius: 15px;">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <h6 class="card-subtitle mb-2 text-muted"></h6> -->
+                        <img style="margin-left: 8rem; margin-left: 10rem;
+                        padding-top: 4%;" src="../../assets/Frame 1000002779.png">
+
+                        <h6 class="card-subtitle mb-2 " style="margin-top: 5%;
+                  margin-left:35%;
+                  color: darkblue;
+                  ">New Assessment</h6>
+
+                        <p class="card-text" style="padding-left: 7%;">From here you can add question of multiple types
+                            <span style="margin-left: 9%;">like MCQs,subjective(text or paragraph)</span>
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4" style="padding-top: 5%;">
+                <div class="card" style="width: 24rem;">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <img src="../../assets/Frame 1000008703.jpg" style="margin-top: -2%;">
+                        <h6 class="math-assessment">Math Assessment</h6>
+                        <span class="job">Job</span>
+                        <span style="  border-right: 1px solid #DADCE0;
+                        ; margin-left: 7%;"></span>
+
+                        <span style="margin-left: 12%;">
+                            <img style="margin-left: -9%;" src="../../assets/calendar_today.jpg">
+                            <span style="margin-left: 2%;">20 April 2023</span>
+                        </span>
+                        <mat-divider></mat-divider>
+                        <div style="font-size: 16px;
+                  color: #25257d;
+                  margin-top: 2%;
+                  font-weight: 403;">
+                            <span class="math-assessment">00</span>
+
+                            <span style="margin-left: 16%;">
+                                00
+                            </span>
+
+
+                            <div>
+                                Duration
+                                <span style="margin-left: 3%;">
+                                    Question
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" id="last-col">
+                <div class="card" style="width: 24rem;
+                margin-top: 20%;">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <!-- <div style="border-right: 1px solid green;"> -->
+                        <img src="../../assets/Frame 1000008703.jpg">
+                        <h6 class="math-assessment">Math Assessment</h6>
+                        <span class="job">Job</span>
+                        <span style="  border-right: 1px solid #DADCE0;
+                        margin-left: 7%;"></span>
+                        <span style="margin-left: 12%;">
+                            <img style="margin-left: -9%;" src="../../assets/calendar_today.jpg">
+                            <span style="margin-left: 2%;">20 April 2023</span>
+                        </span>
+
+                        <mat-divider></mat-divider>
+                        <div style="font-size: 16px;
+                  color: #25257d;
+                  margin-top: 2%;
+                  font-weight: 403;">
+                            <span class="math-assessment">00</span>
+
+                            <span style="margin-left: 16%;">
+                                00
+                            </span>
+
+
+                            <div>
+                                Duration
+                                <span style="margin-left: 3%;">
+                                    Question
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>

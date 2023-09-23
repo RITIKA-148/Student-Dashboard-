@@ -1,0 +1,24 @@
+.logo{
+    margin-left: 4rem;
+margin-top: 2rem;
+margin-left: 4rem;
+margin-top: 2rem;
+text-decoration: none;
+/* color: azure; */
+color: #25257d;
+;
+}
+
+.dash{
+    margin-left: 3rem;
+}
+.mat-icon{
+    margin-top: 6%;
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    
+}
